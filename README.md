@@ -1,5 +1,9 @@
 # GTM Version Checker
 
+| 🟢 正常時 | 🔴 異常検知時 |
+| --- | --- |
+| ![配信ステータス：正常](screenshots/matched.png) | ![配信ステータス：異常検知](screenshots/unmatched.png) |
+
 **Google タグ マネージャー（GTM）で「公開」した内容が、実際に配信されているかを自動でチェックする Chrome 拡張機能です。**
 
 GTMコンテナの管理画面で、ヘッダーに「配信ステータス」が表示されます。
