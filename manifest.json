@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "GTM Version Checker",
+	"version": "1.0.0",
+	"description": "Googleタグマネージャーで「公開」した内容が、実際に配信されているかを自動でチェックします。配信中のバージョンがずれている場合は、ワンクリックで反映できます。",
+	"icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://tagmanager.google.com/*"],
+			"js": ["content.js"],
+			"css": ["content.css"],
+			"run_at": "document_idle"
+		}
+	]
+}
